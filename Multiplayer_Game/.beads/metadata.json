@@ -1,0 +1,7 @@
+{
+  "database": "dolt",
+  "backend": "dolt",
+  "dolt_mode": "embedded",
+  "dolt_database": "bathroom",
+  "project_id": "32e4d64e-116d-40a6-a12d-40c6a12b86b3"
+}

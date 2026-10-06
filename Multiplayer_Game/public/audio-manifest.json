@@ -1,0 +1,286 @@
+{
+  "music": [
+    {
+      "title": "Cylinder One",
+      "album": "Cylinders",
+      "artist": "Chris Zabriskie",
+      "duration": 176.17000000000002,
+      "src": "/audio/music/cylinders-01.mp3",
+      "source": "https://audio.chriszabriskie.com/cylinders/cylinders-01.m4a",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "Cylinder Two",
+      "album": "Cylinders",
+      "artist": "Chris Zabriskie",
+      "duration": 227.88,
+      "src": "/audio/music/cylinders-02.mp3",
+      "source": "https://audio.chriszabriskie.com/cylinders/cylinders-02.m4a",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "Cylinder Three",
+      "album": "Cylinders",
+      "artist": "Chris Zabriskie",
+      "duration": 166.37,
+      "src": "/audio/music/cylinders-03.mp3",
+      "source": "https://audio.chriszabriskie.com/cylinders/cylinders-03.m4a",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "Cylinder Four",
+      "album": "Cylinders",
+      "artist": "Chris Zabriskie",
+      "duration": 176.77,
+      "src": "/audio/music/cylinders-04.mp3",
+      "source": "https://audio.chriszabriskie.com/cylinders/cylinders-04.m4a",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "Cylinder Five",
+      "album": "Cylinders",
+      "artist": "Chris Zabriskie",
+      "duration": 173.59,
+      "src": "/audio/music/cylinders-05.mp3",
+      "source": "https://audio.chriszabriskie.com/cylinders/cylinders-05.m4a",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "Cylinder Six",
+      "album": "Cylinders",
+      "artist": "Chris Zabriskie",
+      "duration": 105.7,
+      "src": "/audio/music/cylinders-06.mp3",
+      "source": "https://audio.chriszabriskie.com/cylinders/cylinders-06.m4a",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "Cylinder Seven",
+      "album": "Cylinders",
+      "artist": "Chris Zabriskie",
+      "duration": 532.22,
+      "src": "/audio/music/cylinders-07.mp3",
+      "source": "https://audio.chriszabriskie.com/cylinders/cylinders-07.m4a",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "Cylinder Eight",
+      "album": "Cylinders",
+      "artist": "Chris Zabriskie",
+      "duration": 338.94,
+      "src": "/audio/music/cylinders-08.mp3",
+      "source": "https://audio.chriszabriskie.com/cylinders/cylinders-08.m4a",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "Cylinder Nine",
+      "album": "Cylinders",
+      "artist": "Chris Zabriskie",
+      "duration": 322.9,
+      "src": "/audio/music/cylinders-09.mp3",
+      "source": "https://audio.chriszabriskie.com/cylinders/cylinders-09.m4a",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "Everybody’s Got Problems That Aren’t Mine",
+      "album": "Thoughtless",
+      "artist": "Chris Zabriskie",
+      "duration": 497.21,
+      "src": "/audio/music/thoughtless-01.mp3",
+      "source": "https://audio.chriszabriskie.com/thoughtless/thoughtless-01.m4a",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "Another Version of You",
+      "album": "Thoughtless",
+      "artist": "Chris Zabriskie",
+      "duration": 369.75,
+      "src": "/audio/music/thoughtless-02.mp3",
+      "source": "https://audio.chriszabriskie.com/thoughtless/thoughtless-02.m4a",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "There’s a Special Place for Some People",
+      "album": "Thoughtless",
+      "artist": "Chris Zabriskie",
+      "duration": 384.24,
+      "src": "/audio/music/thoughtless-03.mp3",
+      "source": "https://audio.chriszabriskie.com/thoughtless/thoughtless-03.m4a",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "I Can’t Imagine Where I’d Be Without It",
+      "album": "Thoughtless",
+      "artist": "Chris Zabriskie",
+      "duration": 492.15,
+      "src": "/audio/music/thoughtless-04.mp3",
+      "source": "https://audio.chriszabriskie.com/thoughtless/thoughtless-04.m4a",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "Rewound",
+      "album": "Thoughtless",
+      "artist": "Chris Zabriskie",
+      "duration": 438.16,
+      "src": "/audio/music/thoughtless-05.mp3",
+      "source": "https://audio.chriszabriskie.com/thoughtless/thoughtless-05.m4a",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "Heliograph",
+      "album": "Divider",
+      "artist": "Chris Zabriskie",
+      "duration": 339.513469,
+      "src": "/audio/music/divider-01.mp3",
+      "source": "https://audio.chriszabriskie.com/divider/divider-01.m4a",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "Candlepower",
+      "album": "Divider",
+      "artist": "Chris Zabriskie",
+      "duration": 340.166531,
+      "src": "/audio/music/divider-02.mp3",
+      "source": "https://audio.chriszabriskie.com/divider/divider-02.m4a",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "CGI Snake",
+      "album": "Divider",
+      "artist": "Chris Zabriskie",
+      "duration": 390.870204,
+      "src": "/audio/music/divider-03.mp3",
+      "source": "https://audio.chriszabriskie.com/divider/divider-03.m4a",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "Wonder Cycle",
+      "album": "Divider",
+      "artist": "Chris Zabriskie",
+      "duration": 345.991837,
+      "src": "/audio/music/divider-04.mp3",
+      "source": "https://audio.chriszabriskie.com/divider/divider-04.m4a",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "Oxygen Garden",
+      "album": "Divider",
+      "artist": "Chris Zabriskie",
+      "duration": 363.232653,
+      "src": "/audio/music/divider-05.mp3",
+      "source": "https://audio.chriszabriskie.com/divider/divider-05.m4a",
+      "license": "CC BY 4.0"
+    },
+    {
+      "title": "Divider",
+      "album": "Divider",
+      "artist": "Chris Zabriskie",
+      "duration": 201.795918,
+      "src": "/audio/music/divider-06.mp3",
+      "source": "https://audio.chriszabriskie.com/divider/divider-06.m4a",
+      "license": "CC BY 4.0"
+    }
+  ],
+  "totalSeconds": 4402.05,
+  "ambient": {
+    "src": "/audio/outside.mp3",
+    "title": "city morning with birds and traffic",
+    "artist": "thegreatbelow",
+    "license": "CC0 1.0",
+    "source": "https://freesound.org/people/thegreatbelow/sounds/546794/",
+    "download": "https://cdn.freesound.org/previews/546/546794_4589736-hq.mp3"
+  },
+  "effects": [
+    {
+      "key": "duck",
+      "src": "/audio/sfx/duck.mp3",
+      "creator": "Slothfully_So",
+      "source": "https://freesound.org/people/Slothfully_So/sounds/685067/",
+      "license": "CC0 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "changes": "Public MP3 preview; trimmed and converted to mono 96 kbps MP3 for the game."
+    },
+    {
+      "key": "flush",
+      "src": "/audio/sfx/flush.mp3",
+      "creator": "lorenzgillner",
+      "source": "https://freesound.org/people/lorenzgillner/sounds/274448/",
+      "license": "CC0 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "changes": "Public MP3 preview; trimmed and converted to mono 96 kbps MP3 for the game."
+    },
+    {
+      "key": "washer",
+      "src": "/audio/sfx/washer.mp3",
+      "creator": "TravieDoodle",
+      "source": "https://freesound.org/people/TravieDoodle/sounds/567545/",
+      "license": "CC0 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "changes": "Public MP3 preview; trimmed and converted to mono 96 kbps MP3 for the game."
+    },
+    {
+      "key": "dryer",
+      "src": "/audio/sfx/dryer.mp3",
+      "creator": "felix.blume",
+      "source": "https://freesound.org/people/felix.blume/sounds/188454/",
+      "license": "CC0 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "changes": "Public MP3 preview; trimmed and converted to mono 96 kbps MP3 for the game."
+    },
+    {
+      "key": "paste",
+      "src": "/audio/sfx/paste.mp3",
+      "creator": "jpkweli",
+      "source": "https://freesound.org/people/jpkweli/sounds/154791/",
+      "license": "CC0 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "changes": "Public MP3 preview; trimmed and converted to mono 96 kbps MP3 for the game."
+    },
+    {
+      "key": "tile",
+      "src": "/audio/sfx/tile.mp3",
+      "creator": "wrenshep098",
+      "source": "https://freesound.org/people/wrenshep098/sounds/132235/",
+      "license": "CC0 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "changes": "Public MP3 preview; trimmed and converted to mono 96 kbps MP3 for the game."
+    },
+    {
+      "key": "brush",
+      "src": "/audio/sfx/brush.mp3",
+      "creator": "wrenshep098",
+      "source": "https://freesound.org/people/wrenshep098/sounds/132236/",
+      "license": "CC0 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "changes": "Public MP3 preview; trimmed and converted to mono 96 kbps MP3 for the game."
+    },
+    {
+      "key": "spray",
+      "src": "/audio/sfx/spray.mp3",
+      "creator": "michael_grinnell",
+      "source": "https://freesound.org/people/michael_grinnell/sounds/464428/",
+      "license": "CC0 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "changes": "Public MP3 preview; trimmed and converted to mono 96 kbps MP3 for the game."
+    },
+    {
+      "key": "fan",
+      "src": "/audio/sfx/fan.mp3",
+      "creator": "yottasounds",
+      "source": "https://freesound.org/people/yottasounds/sounds/380837/",
+      "license": "CC0 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "changes": "Public HQ MP3 preview, 5–35 second excerpt, mono 44.1 kHz / 96 kbps MP3. Sustained loop with gain fades and room/distance attenuation."
+    },
+    {
+      "key": "vhs",
+      "src": "/audio/sfx/vhs.mp3",
+      "creator": "Sassaby",
+      "source": "https://freesound.org/people/Sassaby/sounds/264934/",
+      "license": "CC0 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "changes": "Public HQ preview converted to mono 96 kbps MP3. Occasional finite bursts fade in and out; never a continuous loop."
+    }
+  ],
+  "modifications": "Music and Kenney effects re-encoded to 96 kbps MP3; songs remain complete. Outdoor ambience uses the public MP3 preview. Recorded effects, including the extractor fan, use individually credited CC0 sources. Procedural shower water and electrical hum are original CC0 definitions; synthetic duck/wet fallbacks are original."
+}

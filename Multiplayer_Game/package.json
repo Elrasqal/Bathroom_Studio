@@ -1,0 +1,18 @@
+{
+  "name": "bathroom-studio",
+  "version": "0.15.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=24.14"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test",
+    "check": "node --check server.js && node --check public/app.js && node --check public/scene.js && node --check public/paint.js && node --check public/controls.js && node --check public/walk.js && node --check public/environment.js && node --check public/fog.js && node --check public/performance.js && node --check public/frame-pump.js && node --check public/furnishings.js && node --check public/renovation.js && node --check public/audio.js && node --check public/laundry.js && node --check public/paper.js && node --check public/paper-paint.js && node --check public/replay.js && node --check public/gallery.js && node --check public/print-paint.js && node --check public/vhs.js && node --check public/window-sky.js && node --check public/water.js && node --check public/labels.js && node --check public/label-editor.js && node --check public/avatar.js && node --check public/tape-grain.js && node --check public/laundry-visual.js && node --check public/movement-sync.js"
+  },
+  "dependencies": {
+    "three": "0.186.1",
+    "ws": "8.22.0"
+  }
+}

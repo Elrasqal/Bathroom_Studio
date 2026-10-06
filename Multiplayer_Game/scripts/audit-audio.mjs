@@ -1,0 +1,7 @@
+import fs from 'node:fs';import crypto from 'node:crypto';
+const m=JSON.parse(fs.readFileSync('public/audio-manifest.json'));fs.mkdirSync('data/license-audit',{recursive:true});
+const sources=[...m.effects.map(e=>({key:e.key,url:e.source,kind:'cc0'})),{key:'outside',url:m.ambient.source,kind:'cc0'},{key:'kenney',url:'https://kenney.nl/assets/rpg-audio',kind:'cc0'},{key:'music',url:'https://chriszabriskie.com/use/',kind:'by'},{key:'divider',url:'https://chriszabriskie.com/divider/',kind:'album'},{key:'static',url:'https://freesound.org/people/Sassaby/sounds/264934/',kind:'cc0'}];
+const report=await Promise.all(sources.map(async s=>{try{const r=await fetch(s.url,{signal:AbortSignal.timeout(25000)}),html=await r.text();fs.writeFileSync('data/license-audit/'+s.key+'.html',html);const confirmed=s.kind==='cc0'?/creativecommons\.org\/publicdomain\/zero\/1\.0|Creative Commons 0|Creative Commons CC0/.test(html):s.kind==='by'?/CC BY 4\.0/.test(html):/Creative Commons Attribution/.test(html);return{...s,status:r.status,confirmed,checked:new Date().toISOString()};}catch(e){return{...s,confirmed:false,error:e.message};}}));
+fs.writeFileSync('data/license-audit/report.json',JSON.stringify(report,null,2));console.log(JSON.stringify(report));
+for(const key of ['static','divider']){const html=fs.readFileSync('data/license-audit/'+key+'.html','utf8');console.log(key,JSON.stringify([...new Set(html.match(/https:\/\/[^"\s<>]+(?:mp3|m4a)/g)||[])]));}
+console.log('sha256',crypto.createHash('sha256').update(fs.readFileSync('public/audio-manifest.json')).digest('hex'));

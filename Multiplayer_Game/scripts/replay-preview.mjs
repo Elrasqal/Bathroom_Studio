@@ -1,0 +1,6 @@
+import{once}from'node:events';import{startServer}from'../server.js';import WebSocket from'ws';
+let now=Date.now();const app=startServer({port:3002,database:':memory:',clock:()=>now});await once(app.server,'listening');const ws=new WebSocket('ws://127.0.0.1:3002/socket',{origin:'http://127.0.0.1:3002'});let code;const waits=new Map();ws.on('message',b=>{const m=JSON.parse(b.toString());if(m.type==='error')throw Error(m.message);if(m.type==='state')code=m.room.code;const key=m.type==='accepted'?m.id:m.type;waits.get(key)?.(m);waits.delete(key);});await once(ws,'open');let pending=new Promise(r=>waits.set('state',r));ws.send(JSON.stringify({type:'join',create:true,name:'Replay fixture',token:'8'.repeat(64)}));await pending;
+pending=new Promise(r=>waits.set('meta',r));ws.send(JSON.stringify({type:'tool',tool:'spray',pickup:true}));await pending;
+for(let i=0;i<1000;i++){now+=40;const id='replay-'+i,ack=new Promise(r=>waits.set(id,r));ws.send(JSON.stringify({type:'stroke',id,generation:0,tool:'spray',color:i%2?'#589687':'#ef7066',size:.004,points:Array.from({length:32},(_,j)=>j%2?[.95,.95]:[.05,.05])}));await ack;}
+console.log(JSON.stringify({url:'http://127.0.0.1:3002',code,strokes:1000,note:'In-memory disposable replay fixture; user database is untouched'}));
+process.on('SIGINT',async()=>{ws.terminate();await app.close();process.exit(0);});
